@@ -5,10 +5,11 @@
   <body>
     <div id="navboor">
       <ul>
-        <li><a href="index.html">[home]</a></li> <li><a href="about.html">[about]</a></li><li><a href="contact.html">[contact]</a></li>
+        <li id="navlist"><a href="index.html">[home]</a></li> <li><a href="about.html">[about]</a></li><li><a href="contact.html">[contact]</a></li>
       </ul>
     </div>
-    <h2 id="umom">Dripbert's personal website</h2>
+    <p id="umom">Dripbert's personal website</p>
+    <p id="links"><a href="https://github.com/dripbert">github</a></p>
   </body>
   <style>
     #navboor {
@@ -19,7 +20,7 @@
       top: 0;
       left: 0;
     }
-    li{
+    #navlist{
       background-color: white;
       list-style-type: none;
       display: inline;
@@ -37,6 +38,15 @@
       position: absolute;
       top: 100px;
       left: 50%;
-      transform: translate(-50%)
+      transform: translate(-50%);
+      font-size: 1.5em;
+    }
+    #links{
+      position: absoluse;
+      top: 150px;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 1em;
+    }
   </style>
 </html>
