@@ -25,7 +25,7 @@ li:hover{
 }
 
 a{
-      color: black;
+      color: #fe8019;
       text-decoration: none;
 }
 
@@ -35,4 +35,5 @@ a{
       left: 50%;
       transform: translate(-50%);
       font-size: 1.5em;
+      color: #fe8019;
 }
