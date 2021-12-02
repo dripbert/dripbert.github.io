@@ -17,6 +17,8 @@ li{
       float: left;
       transform: translate(0, -16px); 
       align: center;
+      border-left: 7px solid #1d2021;
+      border-right: 7px solid #1d2021;
 }
 
 li:hover{
